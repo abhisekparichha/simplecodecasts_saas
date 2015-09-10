@@ -8,14 +8,14 @@
         <div class="well">
             <h2 class="text-center">Basic Membership</h2>
             <h4>Signup for free for the basic membership to the community</h4>
-            <%= link_to "Signup for basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+            <%= link_to "Signup for basic", new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
         </div>
     </div>
     <div class="col-md-6">
         <div class="well">
             <h2 class="text-center">Pro membership</h2>
             <h4>Signup for premium membership into community</h4>
-            <%= link_to "Signup pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+            <%= link_to "Signup pro", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
         </div>
     </div>
 </div>
