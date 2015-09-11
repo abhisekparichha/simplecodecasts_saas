@@ -43,7 +43,7 @@ gem 'devise','~> 3.4.1'
 
 #Gem for payments processing stripe
 gem 'stripe','1.16.1'
-
+# hides figaro
 gem 'figaro','1.0.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
